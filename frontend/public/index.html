@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css">
+        <title>Cronômetro Fullstack</title>
+    </head>
+    <body>
+        <div class="container">
+            <div id="realTimeClock" class="real-time-clock"></div>
+            <h1>Cronômetro Digital</h1>
+            <p>Este é um cronometro digital</p>
+            <div id="display" class="display">00:00:00:000</div>
+            
+            <div class="controls">
+                <button id="startButton">Iniciar</button>
+                <button id="stopButton">Parar</button>
+                <button id="resetButton">Resetar</button>
+                <button id="lapButton">Volta</button> 
+            </div>
+
+            <div class="laps-container">
+                <h2>Voltas Registradas</h2>
+                <ul id="lapsList" class="laps-list"> </ul>
+            </div>
+        </div>
+        
+        <script src="/script.js"></script>
+    </body>
+</html>
